@@ -4,6 +4,7 @@ import 'package:lottie/lottie.dart';
 import 'package:play/screens/button_animations.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(
     const MaterialApp(
       title: "Lottie app",
